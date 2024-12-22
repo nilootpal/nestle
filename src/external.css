@@ -1,0 +1,71 @@
+/* body {
+    background-image: url('src/assets/port.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+} */
+
+/* *{
+    border: 2px solid red;
+} */
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -50px; /* Adjust this to control how far the images go below the card */
+  }
+  
+  .image-item {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0 10px;
+    position: absolute;
+    top: 100%; /* This places the images below the card */
+    transform-origin: center center;
+    animation: curve 3s infinite ease-in-out;
+  }
+  
+  .image-item:nth-child(1) {
+    left: 10%;
+  }
+  
+  .image-item:nth-child(2) {
+    left: 25%;
+  }
+  
+  .image-item:nth-child(3) {
+    left: 40%;
+  }
+  
+  .image-item:nth-child(4) {
+    left: 55%;
+  }
+  
+  .image-item:nth-child(5) {
+    left: 70%;
+  }
+  
+  /* Optional: Animation for creating a waving effect */
+  @keyframes curve {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-30px) rotate(10deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+  }
