@@ -1,10 +1,8 @@
-/* body {
-    background-image: url('src/assets/port.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.3;
-} */
+body {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
 
 /* *{
     border: 2px solid red;

@@ -9,8 +9,6 @@ function Home() {
           sx={{
             height: "100vh", // Full screen height
             display: "flex",
-            width: "100vw",
-            marginLeft: "-160px",
             justifyContent: "center",
             alignItems: "center",
             position: "relative",

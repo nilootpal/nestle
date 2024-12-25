@@ -6,15 +6,15 @@ import person from '../assets/person.png';
 
 function Header() {
   return (
-    <div style={{display: 'flex', flexDirection:'row', justifyContent: 'space-between', padding: '10px 20px', borderBottom: '1px solid #ccc'}}>
+    <div style={{display: 'flex', flexDirection:'row', justifyContent: 'space-around', alignItems: 'center', borderBottom: '1px solid #ccc'}}>
         <div style={{justifyItems: 'center'}}>
-            <img src={Home} alt='Home Icon' style={{width:'50px', height:'50px'}}/>
+            <img src={Home} alt='Home Icon' style={{width:'40px', height:'40px'}}/>
         </div>
         <div>
-            <img src={aicoach} alt="Logo" width={200} height={100} style={{borderColor:"black", borderRadius:'2px'}} />
+            <img src={aicoach} alt="Logo" width={250} height={80} style={{borderColor:"black", borderRadius:'2px'}} />
         </div>
         <div>
-            <img src={person} alt="Logo" width={100} height={100} style={{borderRadius:100}} />
+            <img src={person} alt="Logo" width={60} height={60} style={{ borderRadius: '50%' }} />
         </div>
     </div>
   )

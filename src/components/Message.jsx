@@ -26,14 +26,14 @@ const Message = ({ text, sender }) => {
       </Avatar>
       <Box
         sx={{
-          backgroundColor: isUser ? '#d1f8d1' : '#e1f5fe',
-          padding: 1.5,
-          borderRadius: 2,
+          backgroundColor: isUser ? '#688b2c' : '#086296',
+          padding: '12px 18px',
+          borderRadius: 8,
           maxWidth: '70%',
           wordBreak: 'break-word',
         }}
       >
-        <Typography variant="body1">{text}</Typography>
+        <Typography variant="body1" sx={{ color: '#fff' }}>{text}</Typography>
       </Box>
     </Box>
   );

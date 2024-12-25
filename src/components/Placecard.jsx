@@ -8,7 +8,7 @@ import aicoach from '../assets/out2.png';
 
 const PlaceCard = () => {
   const goToChat = () => {
-    window.location.href = '/chat';
+    window.location.href = '/select';
   }
   return (
     <Card

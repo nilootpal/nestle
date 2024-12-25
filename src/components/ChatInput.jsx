@@ -13,7 +13,12 @@ const ChatInput = ({ message, setMessage, sendMessage }) => {
         variant="outlined"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
-        placeholder="Type a message..."
+        onKeyDown={(e) => {
+          if(e.key === 'Enter') {
+            sendMessage()
+          }
+        }}
+        placeholder={`${"Doctor Persona"} - Type here... (AI may display inaccurate)`}
         sx={{ marginRight: 2 }}
       />
       <Button

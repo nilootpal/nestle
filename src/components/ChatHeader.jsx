@@ -10,7 +10,7 @@ const ChatHeader = () => {
       borderTopLeftRadius: '8px',
       borderTopRightRadius: '8px',
     }}>
-      <Typography variant="h4" align="center">Support Chat</Typography>
+      <Typography variant="h5" align="center">Support Chat</Typography>
     </Box>
   );
 };

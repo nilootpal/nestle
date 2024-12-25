@@ -21,6 +21,7 @@ const ChatWindow = () => {
   return (
     <Box sx={{
       width: '100%',
+      minWidth: '330px',
     //   maxWidth: '800px', 
       height: '80vh',
       display: 'flex',
